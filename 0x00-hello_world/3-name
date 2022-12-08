@@ -1,0 +1,2 @@
+#!/bi/nbash
+gcc $CFILE -o cisfun
