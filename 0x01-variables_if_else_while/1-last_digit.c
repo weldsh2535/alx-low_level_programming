@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(){
+int main()
+{
 	int n;
 	char last[] = "Last digit of";
 
@@ -16,7 +17,7 @@ int main(){
 	}
 	else if(n % 10 ==0)
 	{
-		printf(" 0\n");
+		printf("0\n");
 	}
 	else
 	{
