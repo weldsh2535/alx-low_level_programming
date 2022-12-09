@@ -1,14 +1,16 @@
 #include <stdio.h>
-
-int main()
+/**
+ * main - Display the charaters
+ * Return: 0 on success
+ */
+int main(void)
 {
 	char c = 'a';
 
-	while(c <= 'z')
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
-	
 	}
 	printf("\n");
 	return (0);
