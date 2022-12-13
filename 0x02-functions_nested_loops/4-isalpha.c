@@ -2,11 +2,12 @@
 
 /**
  * _isalpha - checks letter
- * Return: 1 if ch is lowercase
+ * @c:character.
+ * Return: 1 if c is lowercase
  */
-int _isalpha(int ch)
+int _isalpha(int c)
 {
-	if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
