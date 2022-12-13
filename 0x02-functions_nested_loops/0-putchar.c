@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - call function
+ * main - Lanzador
  *
  * return 0
  */
