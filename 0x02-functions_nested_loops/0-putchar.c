@@ -2,8 +2,10 @@
 
 #include "main.h"
 
-/* to display or prints _putchar
+/**
+ * main - call function
  *
+ * return 0
  */
 int main(void)
 {
