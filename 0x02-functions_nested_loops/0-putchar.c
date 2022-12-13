@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - Lanzador
+ * main - prints "_putchar" 
  *
  * return 0
  */
