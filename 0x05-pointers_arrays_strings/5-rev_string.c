@@ -17,5 +17,4 @@ void rev_string(char *s)
 		s[index] = s[length - 1 - index]; 
 		s[length - 1 - index] = ch;
 	}
-
 }
