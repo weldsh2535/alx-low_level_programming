@@ -1,29 +1,23 @@
 #include "main.h"
-int sqrt(int n, int i);
 /**
- * _sqrt_recursion - no loop, 1. 2nd function - checks for perfect square
- * @n: input
- * Return: Always 0 (Success)
+ * _pow_recursion - returns the value of x raised of the power of y
+ * @x: base
+ * @y: power
+ *
+ * Return: the power
  */
-int _sqrt_recursion(int n)
+int _pow_recursion(int x, int y)
 {
-	if (n < 0)
+	if (y < 0)
+	{
 		return (-1);
+	}
+	else if (y == 0)
+	{
+		return (1);
+	}
 	else
-		return (sqrt(n, (n + 1) / 2));
-}
-/**
- * sqrt - checks if perfect square
- * @n: input
- * @i: counter
- * Return: if square root
- */
-int sqrt(int n, int i)
-{
-	if (i < 1)
-		return (-1);
-	else if (i * i == n)
-		return (i);
-	else
-		return (sqrt(n, i - 1));
+	{
+		return (x * _pow_recursion(x, y - 1));
+	}
 }
