@@ -7,7 +7,7 @@ This repository contains programs written for the low-level programming and algo
 Structure
 <hr>
 <ul>
-<li><a href="/weldsh2535/alx-low_level_programming/tree/main/0x00-hello_world">0x00. C - Hello, World</a></li>
+<li><a href="/0x00-hello_world">0x00. C - Hello, World</a></li>
 <li><a href="/weldsh2535/alx-low_level_programming/tree/main/0x01-variables_if_else_while">0x01. C - Variables, if, else, while</a></li>
 <li><a href="/weldsh2535/alx-low_level_programming/tree/main/0x02-functions_nested_loops">0x02. C - Functions_nested_loops</a></li>
 <li><a href="/weldsh2535/alx-low_level_programming/tree/main/0x03-debugging">0x03. C - Debugging</a></li>
