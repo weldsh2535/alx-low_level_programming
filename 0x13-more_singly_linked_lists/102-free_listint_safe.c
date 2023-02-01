@@ -1,6 +1,6 @@
 /*
  * File: 102-free_listint_safe.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Weldsh Aweke Ergete
  */
 
 #include "lists.h"
