@@ -1,6 +1,6 @@
 /*
  * File: 101-print_listint_safe.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Weldsh Aweke Ergete
  */
 
 #include "lists.h"
