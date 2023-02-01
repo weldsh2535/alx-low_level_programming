@@ -1,6 +1,6 @@
 /*
  * File: 5-free_listint2.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Weldsh Aweke Ergete
  */
 
 #include "lists.h"
