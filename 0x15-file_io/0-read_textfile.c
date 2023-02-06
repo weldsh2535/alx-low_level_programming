@@ -1,4 +1,4 @@
-#include "coding.h"
+#include "main.h"
 
 /**
  * read_textfile - function with two arguments
